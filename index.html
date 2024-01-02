@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<body>
+    <div class="container nullify-margin">
+        <div class="navigation ">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#wardrobe-section">Wardrobe</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                    <button onclick="openMap()" class="bttn" >Location</button>
+
+                    <script>
+                        function openMap() {
+                          
+                          const mapUrl = `https://maps.app.goo.gl/n1NJFnjrrEokfYCS6`;
+                          window.open(mapUrl, '_blank');
+                        }
+                        </script>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="home-area" id="home-section">
+            <div class="left-home-area">
+                <img src="images/home-page.png" alt="">
+            </div>
+            <div class="right-home-area">
+                <h1>FIND YOUR STYLE</h1>
+                <p>Life isn't perfect, </p>
+                <p>but your outfits can be</p>
+
+                <div class="app-buttons">
+                    <button class="playstore bttn"><img class="home-area-svg" src="images/google-play.svg"
+                            alt="">Playstore</button>
+                    <button class="appstore bttn"><img src="images/apple.svg" alt="">Appstore</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-us" id="about-us-section">
+            <div class="about-content">
+                <h1>About Our Brand</h1>
+                <p>WardWay, a distinctive clothing brand, has carved a niche for itself in the fashion industry by offering a curated collection of beautifully styled apparel for men, women, and kids. With a keen eye for design and a commitment to quality, WardWay blends contemporary trends with timeless elegance, creating a versatile range that appeals to all ages. The brand's commitment to delivering fashion-forward pieces that exude both comfort and confidence makes WardWay a go-to choice for individuals seeking a perfect blend of aesthetics and functionality in their wardrobe.</p>
+            </div>
+
+            <div class="about-img">
+                <img src="images/logo.png" alt="">
+            </div>
+        </div>
+
+
+        <!--wardrobe Area-->
+
+        <div class="background-area" id="wardrobe-section">
+            <div class="background-area-container">
+                <div class="men card">
+                    <img src="images/fashion-area-1.png" alt="">
+                    <h4 class="card-title">Men's Collection</h4>
+                </div>
+                <div class="woman card">
+                    <img src="images/fashion-area-2.png" alt="">
+                    <h4 class="card-title">Men's Collection</h4>
+                </div>
+                <div class="kids card">
+                    <img src="images/fashion-area-3.png" alt="">
+                    <h4 class="card-title">Men's Collection</h4>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="contact-us" id="contact-us">
+
+            <div class="contact-us-area">
+                <div class="contact-us-area-container ">
+                    <img class="contact-us-img" src="images/about-us-img.png" alt="">
+                    <div class="contact-us-content">
+                        <h2>Contact Us At</h2>
+                        <div class="information">
+                            <p>
+                                <span><img class="icons" src="images/telephone-fill.svg" alt=""></span>
+                                <span>+91 99999-88888</span>
+                            </p>
+                            <p>
+                                <span><img class="icons" src="images/envelope-fill.svg" alt=""></span>
+                                <span>info@wardway.com</span>
+                            </p>
+                            <p>
+                                <span><img class="icons" src="images/instagram.svg" alt=""></span>
+                                <span>the_wardway</span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-lists">
+                    <ul>
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>FAQs</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+                
+                <p>© 2023 Chaitrali</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
